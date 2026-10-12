@@ -1,0 +1,9 @@
+
+/* SKDOT video library — distributed across the original site */
+.video-library{padding-top:0}
+.video-library .video-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.video-library .video-card{overflow:hidden;border:1px solid rgba(6,26,54,.12);border-radius:28px;background:#fff;box-shadow:0 12px 30px rgba(6,26,54,.06)}
+.video-library video{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;background:#061A36}
+.video-library .video-card>div{padding:20px 22px 24px}
+.video-library .video-card h3{margin:6px 0 0}
+@media(max-width:700px){.video-library .video-grid{grid-template-columns:1fr}.video-library video{aspect-ratio:16/10}}
